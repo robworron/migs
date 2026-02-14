@@ -3,8 +3,6 @@
 import Link from "next/link";
 import Button from "./Button";
 
-
-
 export default function LandingButtons() {
   return (
     <div className="flex gap-4">
