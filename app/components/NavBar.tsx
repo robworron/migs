@@ -3,7 +3,7 @@ const ANCHOR_STYLES =
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-end w-full h-12 lg:h-16 px-4 lg:px-8 bg-[var(--primary)] text-white text-2xl">
+    <nav className="flex justify-end w-full h-12 lg:h-16 px-4 lg:px-8 bg-[var(--primary)] text-white text-lg shadow-lg">
       <div className="relative flex gap-4 lg:gap-12 items-center">
         <a href="/" className={ANCHOR_STYLES}>
           Home
