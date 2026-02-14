@@ -6,6 +6,6 @@ export const metadata: Metadata = {
     "Shockwave Therapy is used by John Mignelli for Chiropractic treatment of soft tissue injuries including sprains, tendinitis, plantar fasciitis, and other pains.",
 };
 
-export default function ShockWavePage() {
+export default function ShockwavePage() {
   return <></>;
 }

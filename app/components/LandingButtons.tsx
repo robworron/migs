@@ -3,22 +3,16 @@
 import Link from "next/link";
 import Button from "./Button";
 
-function handleReadMore() {
-  console.log("Read More clicked");
-}
 
-function handleBookNow() {
-  console.log("Book Now clicked");
-}
 
 export default function LandingButtons() {
   return (
     <div className="flex gap-4">
         <Link href="/about">
-            <Button label="Read More" onClick={handleReadMore} />
+            <Button label="Read More" />
         </Link>
         <Link href="/contact">
-            <Button label="Book Now" onClick={handleBookNow} />
+            <Button label="Book Now" />
         </Link>
     </div>
   );
