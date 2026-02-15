@@ -8,7 +8,7 @@ const LINK_STYLES =
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-end w-full h-12 lg:h-16 px-4 lg:px-8 bg-[var(--primary)] text-white text-lg shadow-lg">
+    <nav className="z-50 flex justify-end w-full h-12 lg:h-16 px-4 lg:px-8 bg-[var(--primary)] text-white text-lg shadow-lg">
       <div className="relative flex gap-4 lg:gap-12 items-center">
         <Link href="/" className={LINK_STYLES}>
           Home
@@ -18,7 +18,7 @@ export default function NavBar() {
         </Link>
         <div className={LINK_STYLES}>
           <span>Services</span>
-          <div className="absolute top-full left-[-20] min-w-60 hidden group-hover:flex z-50">
+          <div className="absolute top-full left-[-20] min-w-60 hidden group-hover:flex">
             <Dropdown />
           </div>
         </div>

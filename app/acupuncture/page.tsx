@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 import Image from "next/image";
 
+import NavMenu from "../components/NavMenu";
+
 export const metadata: Metadata = {
   title: "Acupuncture",
   description:
@@ -12,6 +14,9 @@ export default function AcupuncturePage() {
     <main className="flex flex-col gap-12 items-center w-full min-h-screen mx-auto py-24">
       <section className="relative flex justify-center w-full">
         <span className="z-[9] absolute top-[-8] bg-[var(--primary)] w-full h-4" />
+        <div className="absolute top-20 left-0">
+          <NavMenu />
+        </div>
         <div className="flex justify-center w-full max-w-6xl">
           <div className="relative w-3/4">
             <div className="aspect-16/9">
