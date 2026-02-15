@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Lexend } from "next/font/google";
 import "./globals.css";
 
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 
 const lexend = Lexend({
@@ -24,9 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={lexend.variable}>
-      <body>
+      <body className="flex flex-col">
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
