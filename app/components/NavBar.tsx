@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import Dropdown from "./Dropdown";
 
 const LINK_STYLES =
@@ -8,7 +9,15 @@ const LINK_STYLES =
 
 export default function NavBar() {
   return (
-    <nav className="z-50 flex justify-end w-full h-12 lg:h-16 px-4 lg:px-8 bg-[var(--primary)] text-white text-lg shadow-lg">
+    <nav className="flex justify-between w-full h-12 lg:h-16 px-4 lg:px-16 bg-[var(--foreground)] text-[var(--primary)] text-lg shadow-lg">
+      <div className="relative h-full w-30">
+        <Image
+          src="/logo.png"
+          alt="John Mignelli Logo"
+          fill
+          className="object-cover"
+        />
+      </div>
       <div className="relative flex gap-4 lg:gap-12 items-center">
         <Link href="/" className={LINK_STYLES}>
           Home
