@@ -7,5 +7,9 @@ export const metadata: Metadata = {
 };
 
 export default function SurgicalPage() {
-  return <></>;
+  return (
+    <main className="flex justify-center items-center w-full min-h-screen text-6xl font-bold">
+      COMING SOON
+    </main>
+  );
 }

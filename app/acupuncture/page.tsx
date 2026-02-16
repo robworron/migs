@@ -18,12 +18,12 @@ export default function AcupuncturePage() {
         </div>
         <div className="flex justify-center w-full max-w-6xl">
           <div className="relative w-3/4">
-            <div className="aspect-16/9">
+            <div className="aspect-[16/9]">
               <Image
                 src="/temp_acupuncture.png"
                 alt="Acupuncture"
                 fill
-                className="object-fit opacity-80"
+                className="object-cover opacity-80"
               />
             </div>
             <h2 className="absolute top-[-35] left-[-100] bg-[var(--secondary)] px-24 py-4 text-center text-white text-3xl font-bold z-[10]">
