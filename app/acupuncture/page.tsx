@@ -12,24 +12,24 @@ export default function AcupuncturePage() {
   return (
     <main className="flex flex-col gap-12 items-center w-full min-h-screen mx-auto py-24">
       <section className="relative flex justify-center w-full">
-        <span className="z-[9] absolute top-[-8] bg-[var(--primary)] w-full h-4" />
+        <span className="z-10 absolute -top-4 w-full h-4 bg-[var(--primary)]" />
         <div className="absolute top-10 left-0">
           <NavMenu />
         </div>
         <div className="flex justify-center w-full max-w-6xl">
-          <div className="relative w-3/4">
+          <div className="relative w-3/4 pb-20">
             <div className="aspect-[16/9]">
               <Image
-                src="/temp_acupuncture.png"
+                src={"/acupuncture.png"}
                 alt="Acupuncture"
                 fill
                 className="object-cover opacity-80"
               />
             </div>
-            <h2 className="absolute top-[-35] left-[-100] bg-[var(--secondary)] px-24 py-4 text-center text-white text-3xl font-bold z-[10]">
+            <h2 className="z-20 absolute -top-10 left-0 -translate-x-1/3 bg-[var(--secondary)] px-24 py-4 text-center text-white text-3xl font-bold">
               Acupuncture
             </h2>
-            <div className="z-[10] absolute bottom-[-150] right-[-300] max-w-full py-8 bg-[var(--secondary)] text-center text-white">
+            <div className="z-20 absolute bottom-0 right-0 translate-x-1/4 translate-y-2/3 max-w-full py-8 bg-[var(--secondary)] text-center text-white">
               <p className="mx-16">
                 Acupuncture is an ancient treatment that began in China and has
                 been performed on people therapeutically for over 3000 years. It

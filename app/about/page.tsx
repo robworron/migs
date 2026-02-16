@@ -42,14 +42,9 @@ export default function AboutPage() {
             a panel that helps to develop our national licensure exams.
           </p>
         </article>
-        <div className="flex-1">
-          <div className="relative w-full h-full">
-            <Image
-              src="/temp_about.png"
-              alt="temp"
-              fill
-              className="object-cover"
-            />
+        <div className="flex justify-end flex-1 w-full">
+          <div className="relative w-[90%] h-full">
+            <Image src="/body.png" alt="temp" fill className="object-fit" />
           </div>
         </div>
       </section>

@@ -9,7 +9,7 @@ const LINK_STYLES =
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-between w-full h-12 lg:h-16 px-4 lg:px-16 bg-[var(--foreground)] text-[var(--primary)] text-lg shadow-lg">
+    <nav className="absolute top-0 left-0 sticky z-50 flex justify-between w-full h-12 lg:h-16 px-4 lg:px-16 bg-[var(--background)] text-[var(--primary)] text-lg shadow-lg">
       <div className="relative h-full w-30">
         <Image
           src="/logo.png"
