@@ -5,7 +5,7 @@ export default function NavMenu() {
   return (
     <div className="flex flex-col items-center p-8">
       <h3 className="w-full text-center text-xl font-semibold">All Services</h3>
-      <div className="w-4/5 h-1 bg-[var(--primary)] mt-1 mb-3" />
+      <div className="w-4/5 h-1 bg-[var(--accent)] mt-1 mb-3" />
       <nav>
         <ul className="flex flex-col gap-2">
           {SERVICES.map((service) => (

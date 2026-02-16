@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import Image from "next/image";
-
 import NavMenu from "../components/NavMenu";
 
 export const metadata: Metadata = {
@@ -14,7 +13,7 @@ export default function AcupuncturePage() {
     <main className="flex flex-col gap-12 items-center w-full min-h-screen mx-auto py-24">
       <section className="relative flex justify-center w-full">
         <span className="z-[9] absolute top-[-8] bg-[var(--primary)] w-full h-4" />
-        <div className="absolute top-20 left-0">
+        <div className="absolute top-10 left-0">
           <NavMenu />
         </div>
         <div className="flex justify-center w-full max-w-6xl">
@@ -27,10 +26,10 @@ export default function AcupuncturePage() {
                 className="object-fit opacity-80"
               />
             </div>
-            <h2 className="absolute top-[-30] left-[-200] bg-[var(--secondary)] p-4 pl-60 text-right text-white text-2xl font-bold z-[10]">
-              Acupuncture Treatment
+            <h2 className="absolute top-[-35] left-[-100] bg-[var(--secondary)] px-24 py-4 text-center text-white text-3xl font-bold z-[10]">
+              Acupuncture
             </h2>
-            <div className="z-[10] absolute bottom-[-150] right-[-200] max-w-full p-4 bg-[var(--secondary)] text-center text-white">
+            <div className="z-[10] absolute bottom-[-150] right-[-300] max-w-full py-8 bg-[var(--secondary)] text-center text-white">
               <p className="mx-16">
                 Acupuncture is an ancient treatment that began in China and has
                 been performed on people therapeutically for over 3000 years. It
