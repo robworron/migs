@@ -11,7 +11,7 @@ type ServiceCardProps = {
 
 export default function ServiceCard({
   title = "Service Title",
-  imageSrc = "/temp_service.png",
+  imageSrc = "/temp1.png",
   url = "/about",
 }: ServiceCardProps) {
   return (

@@ -12,7 +12,7 @@ export default function NavBar() {
     <nav className="absolute top-0 left-0 sticky z-50 flex justify-between w-full h-12 lg:h-16 px-4 lg:px-16 bg-[var(--background)] text-[var(--primary)] text-lg shadow-lg">
       <div className="relative h-full w-30">
         <Image
-          src="/logo.png"
+          src="/brand/logo.png"
           alt="John Mignelli Logo"
           fill
           className="object-cover"

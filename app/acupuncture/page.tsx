@@ -20,8 +20,8 @@ export default function AcupuncturePage() {
           <div className="relative w-3/4 pb-20">
             <div className="aspect-[16/9]">
               <Image
-                src={"/acupuncture.png"}
-                alt="Acupuncture"
+                src={"/services/acupuncture.png"}
+                alt="Acupuncture Image"
                 fill
                 className="object-cover opacity-80"
               />
