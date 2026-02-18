@@ -20,7 +20,7 @@ export default function LaserPage() {
           <div className="relative w-2/3 pb-20">
             <div className="aspect-[16/9]">
               <Image
-                src={"/services/temp_laser.png"}
+                src={"/temp1.png"}
                 alt="Laser Therapy Image"
                 fill
                 className="object-fit opacity-80"

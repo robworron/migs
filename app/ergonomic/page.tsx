@@ -18,9 +18,9 @@ export default function ErgonomicPage() {
         </div>
         <div className="flex justify-center w-full max-w-6xl">
           <div className="relative w-2/3 pb-20">
-            <div className="aspect-[16/9]">
+            <div className="aspect-[8/7]">
               <Image
-                src={"/services/temp_ergonomic.png"}
+                src={"/services/ergonomic.png"}
                 alt="Ergonomic Assessments Image"
                 fill
                 className="object-fit opacity-80"

@@ -5,19 +5,19 @@ import Image from "next/image";
 
 type ServiceCardProps = {
   title?: string;
+  href?: string;
   imageSrc?: string;
-  url?: string;
 };
 
 export default function ServiceCard({
   title = "Service Title",
   imageSrc = "/temp1.png",
-  url = "/about",
+  href = "/",
 }: ServiceCardProps) {
   return (
     <Link
-      href={url}
-      className="relative flex flex-col justify-center text-center w-24 h-48 shadow-xl rounded-xl overflow-hidden transform-transition duration-300 hover:scale-110"
+      href={href}
+      className="relative flex flex-col justify-center text-center w-full h-full shadow-xl rounded-xl overflow-hidden"
     >
       <Image
         fill

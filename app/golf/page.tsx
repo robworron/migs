@@ -41,6 +41,14 @@ export default function GolfPage() {
                 injury, John would love to help you get back on the course.
               </p>
             </div>
+            <div className="z-20 absolute top-20 right-0 translate-x-1/2 w-72 h-72">
+              <Image
+                src="/assets/titleist.png"
+                alt="Chiropractic Care Image"
+                fill
+                className="object-fit brightness-60"
+              />
+            </div>
           </div>
         </div>
       </section>

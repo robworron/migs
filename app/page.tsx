@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-12 w-full max-w-6xl mx-auto">
-      <section className="flex flex-col gap-8 w-full h-[900px] p-10 bg-[var(--primary)]">
+    <main className="flex flex-col gap-12 w-full">
+      <section className="flex flex-col gap-8 w-full max-w-6xl h-[900px] mx-auto p-10 bg-[var(--primary)]">
         <div className="flex gap-8 h-7/8">
           <div className="flex-1 bg-[var(--foreground)] opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-200">
             <div className="relative w-full h-full">
@@ -46,18 +46,32 @@ export default function Home() {
         </div>
         <p className="w-full bg-[var(--foreground)] p-4 text-center opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-200">
           <b>
-            "I didn't know how much I could improve until I started seeing a
-            Chiropractor. Since I've been in Chiropractic, I've improved by
-            leaps and bounds both mentally and physically."
+            <i>
+              "I didn't know how much I could improve until I started seeing a
+              Chiropractor. Since I've been in Chiropractic, I've improved by
+              leaps and bounds both mentally and physically."
+            </i>
           </b>{" "}
           -- Michael Jordan
         </p>
       </section>
-      <section className="max-w-6xl h-auto">
-        <div className="flex flex-wrap gap-6 justify-center">
-          {SERVICES.map((service) => (
-            <ServiceCard key={service.name} title={service.name} />
-          ))}
+      <section className="flex justify-center items-center w-full h-auto p-8 bg-[var(--foreground)]">
+        <div className="grid grid-cols-4 gap-8">
+          {SERVICES.map(
+            (service, index) =>
+              index < 8 && (
+                <div
+                  key={index}
+                  className="w-48 h-72 rounded-xl shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300"
+                >
+                  <ServiceCard
+                    title={service.name}
+                    href={service.href}
+                    imageSrc={service.imageSrc}
+                  />
+                </div>
+              ),
+          )}
         </div>
       </section>
     </main>

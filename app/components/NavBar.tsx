@@ -10,14 +10,14 @@ const LINK_STYLES =
 export default function NavBar() {
   return (
     <nav className="absolute top-0 left-0 sticky z-50 flex justify-between w-full h-12 lg:h-16 px-4 lg:px-16 bg-[var(--background)] text-[var(--primary)] text-lg shadow-lg">
-      <div className="relative h-full w-30">
+      <Link href="/" className="relative h-full w-30">
         <Image
           src="/brand/logo.png"
           alt="John Mignelli Logo"
           fill
           className="object-cover"
         />
-      </div>
+      </Link>
       <div className="relative flex gap-4 lg:gap-12 items-center">
         <Link href="/" className={LINK_STYLES}>
           Home

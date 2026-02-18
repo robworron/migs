@@ -11,7 +11,7 @@ export default function Dropdown() {
           <div key={index} className="flex flex-col gap-3">
             {index !== 0 && <hr className=" border-gray-300" />}
             <li className="text-[var(--secondary)] text-base transition-transform duration-200 hover:translate-x-2">
-              <Link href={service.url}>{service.name}</Link>
+              <Link href={service.href}>{service.name}</Link>
             </li>
           </div>
         ))}

@@ -18,7 +18,7 @@ export default function ChiropracticPage() {
         <div className="flex justify-center w-full pt-10">
           <div className="flex-2"></div>
           <div className="flex-5 flex flex-col">
-            <h2 className="w-full bg-[var(--secondary)] p-4 px-28 text-white text-3xl font-bold z-[10]">
+            <h2 className="w-full bg-[var(--secondary)] p-4 px-12 text-white text-3xl font-bold z-[10]">
               Chiropractic Care
             </h2>
             <div className="flex w-full">
@@ -58,6 +58,15 @@ export default function ChiropracticPage() {
                 </p>
               </div>
             </div>
+            <p className="w-full bg-[var(--secondary)] p-4 px-28 text-white text-xl z-[10]">
+              <b className="font-semibold">
+                <i>
+                  "As long as I see the chiropractor, I feel like I'm one step
+                  ahead of the game"
+                </i>
+              </b>{" "}
+              - Tom Brady
+            </p>
           </div>
           <div className="flex-1"></div>
         </div>

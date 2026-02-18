@@ -13,7 +13,7 @@ export default function NavMenu() {
               key={service.name}
               className="h-full transform-transition hover:text-[var(--primary)] hover:translate-x-2 duration-200"
             >
-              <Link href={service.url}>{service.name}</Link>
+              <Link href={service.href}>{service.name}</Link>
             </li>
           ))}
         </ul>
