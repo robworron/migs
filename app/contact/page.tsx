@@ -1,11 +1,16 @@
 import { Metadata } from "next";
+import ContactInfo from "../components/ContactInfo";
 
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Find John Mignelli Chiropractic at these two locations in Niagara Falls and Welland; each location is fully equipped to direct-bill and support WSIB and Motor-Vehicle claims.",
+    "Both of John Mignelli’s treatment locations are equipped to direct bill and process WSIB or Motor Vehicle Claims in both Niagara Falls and Welland.",
 };
 
 export default function ContactPage() {
-  return <></>;
+  return (
+    <main className="w-full max-w-6xl min-h-screen mx-auto">
+      <ContactInfo />
+    </main>
+  );
 }

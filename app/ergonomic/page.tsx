@@ -17,7 +17,7 @@ export default function ErgonomicPage() {
           <NavMenu />
         </div>
         <div className="flex justify-center w-full max-w-6xl">
-          <div className="relative w-2/3 pb-20">
+          <div className="relative w-3/5">
             <div className="aspect-[8/7]">
               <Image
                 src={"/services/ergonomic.png"}

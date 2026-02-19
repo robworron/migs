@@ -16,8 +16,8 @@ export default function ChiropracticPage() {
           <NavMenu />
         </div>
         <div className="flex justify-center w-full pt-10">
-          <div className="flex-2"></div>
-          <div className="flex-5 flex flex-col">
+          <div className="flex-1"></div>
+          <div className="flex-4 flex flex-col max-w-[1200px]">
             <h2 className="w-full bg-[var(--secondary)] p-4 px-12 text-white text-3xl font-bold z-[10]">
               Chiropractic Care
             </h2>

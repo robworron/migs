@@ -17,8 +17,8 @@ export default function MyofascialPage() {
           <NavMenu />
         </div>
         <div className="flex justify-center w-full max-w-6xl">
-          <div className="relative w-2/3 pb-20">
-            <div className="aspect-[16/9]">
+          <div className="relative w-3/5 pb-20">
+            <div className="aspect-[4/3]">
               <Image
                 src={"/services/myofascial.png"}
                 alt="Myofascial Treatment Image"
