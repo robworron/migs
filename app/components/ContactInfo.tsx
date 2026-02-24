@@ -17,11 +17,12 @@ export default function ContactInfo() {
             phone="(905)-735-6006"
             fax="(905)-735-0220"
             email="zerogravityphysio@yahoo.com"
+            website="https://www.zerogravityphysio.com/"
             imageSrc="/assets/zero_gravity.png"
             imageAlt="Zero Gravity Building"
           />
         </div>
-        <span className="h-80 my-auto border" />
+        <span className="h-72 my-auto border border-gray-200" />
         <div className="flex-1">
           <WorkplaceInfo
             name="Mobility Lab"
@@ -29,6 +30,7 @@ export default function ContactInfo() {
             postalCode="L2E 0A8"
             phone="(289)-296-3433"
             email="info@mobility-lab.ca"
+            website="https://www.mobility-lab.ca/"
             imageSrc="/assets/mobility_lab.png"
             imageAlt="Mobility Lab Building"
           />

@@ -7,6 +7,7 @@ type WorkplaceInfoProps = {
   phone: string;
   fax?: string;
   email: string;
+  website: string;
   imageSrc: string;
   imageAlt: string;
 };
@@ -18,12 +19,13 @@ export default function WorkplaceInfo({
   phone,
   fax,
   email,
+  website,
   imageSrc,
   imageAlt,
 }: WorkplaceInfoProps) {
   return (
-    <section className="flex gap-4 w-full p-4">
-      <div className="relative flex-4 w-full h-64">
+    <section className="flex gap-4 items-center w-full p-4">
+      <div className="relative flex-2 w-full h-48">
         <Image src={imageSrc} alt={imageAlt} fill />
       </div>
       <div className="flex-3">
@@ -31,6 +33,7 @@ export default function WorkplaceInfo({
         <div>
           <p>{address}</p>
           <p>{postalCode}</p>
+          <p>{website}</p>
           <p className="my-2">{email}</p>
           <p>Phone: {phone}</p>
           {fax && <p>Fax: {fax}</p>}

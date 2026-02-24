@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import ContactInfo from "../components/ContactInfo";
+import FormSection from "../components/FormSection";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -11,6 +12,7 @@ export default function ContactPage() {
   return (
     <main className="w-full max-w-6xl min-h-screen mx-auto">
       <ContactInfo />
+      <FormSection />
     </main>
   );
 }
