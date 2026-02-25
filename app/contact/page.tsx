@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <main className="w-full max-w-6xl min-h-screen mx-auto">
+    <main className="w-full max-w-6xl min-h-screen mx-auto mt-12">
       <ContactInfo />
       <FormSection />
     </main>
