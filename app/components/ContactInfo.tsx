@@ -29,6 +29,7 @@ export default function ContactInfo() {
             address="4725 Dorchester Rd., Niagara Falls, ON"
             postalCode="L2E 0A8"
             phone="(289)-296-3433"
+            fax="(289)-296-1057"
             email="info@mobility-lab.ca"
             website="https://www.mobility-lab.ca/"
             imageSrc="/assets/mobility_lab.png"
