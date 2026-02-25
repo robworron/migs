@@ -7,7 +7,7 @@ export default function Button({ label = "Click Me", onClick }: ButtonProps) {
   return (
     <button
       onClick={onClick}
-      className="bg-[var(--primary)] p-2 md:px-4 md:py-2 text-white rounded-full shadow-md cursor-pointer transition-colors duration-300 hover:bg-[var(--secondary)] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+      className="bg-[var(--primary)] p-2 md:px-4 md:py-2 text-white rounded-full shadow-md cursor-pointer transition-colors duration-300 hover:bg-linear-to-b hover:from-[var(--primary)] hover:to-[var(--secondary)] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
     >
       {label}
     </button>

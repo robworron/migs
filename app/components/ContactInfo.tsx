@@ -5,11 +5,8 @@ export default function ContactInfo() {
   return (
     <section className="flex flex-col w-full">
       <PersonalInfo />
-      <p>
-        Please find the contact info for each of the clinics John works at below
-      </p>
-      <div className="flex gap-4 items-center min-h-[340px] mt-4">
-        <div className="flex-1">
+      <div className="flex flex-col md:flex-row gap-6 items-center min-h-[340px]">
+        <div className="w-full md:flex-1">
           <WorkplaceInfo
             name="Zero Gravity Physiotherapy"
             address="200 Finch St., Welland, ON"
@@ -22,8 +19,7 @@ export default function ContactInfo() {
             imageAlt="Zero Gravity Building"
           />
         </div>
-        <span className="h-72 my-auto border border-gray-200" />
-        <div className="flex-1">
+        <div className="w-full md:flex-1">
           <WorkplaceInfo
             name="Mobility Lab"
             address="4725 Dorchester Rd., Niagara Falls, ON"
@@ -32,6 +28,7 @@ export default function ContactInfo() {
             fax="(289)-296-1057"
             email="info@mobility-lab.ca"
             website="https://www.mobility-lab.ca/"
+            bookingURL="https://mobilitylab.janeapp.com/#/staff_member/3?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnoCztIY26tYGULY9NZsAm6ual0ZdI2ikrDV2O_68MtHPOiQ9CvvbTXQv2QdY_aem_48yKVxVnDbFD3UsYsuUC3w"
             imageSrc="/assets/mobility_lab.png"
             imageAlt="Mobility Lab Building"
           />
