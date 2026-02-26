@@ -55,6 +55,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           target="_blank"
           className="w-8"
+          aria-label="Visit Dr. Mignelli's LinkedIn (opens in new tab)"
         >
           {LINKEDIN_ICON}
         </a>
@@ -63,6 +64,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           target="_blank"
           className="w-8"
+          aria-label="Visit Dr. Mignelli's Instagram (opens in new tab)"
         >
           {INSTAGRAM_ICON}
         </a>
@@ -71,6 +73,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           target="_blank"
           className="w-8"
+          aria-label="Visit Dr. Mignelli's Facebook (opens in new tab)"
         >
           {FACEBOOK_ICON}
         </a>

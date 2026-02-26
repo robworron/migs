@@ -29,21 +29,25 @@ export default function NavBar() {
   }
 
   return (
-    <nav className="sticky top-0 z-50 flex justify-between items-center w-full h-16 px-4 lg:px-16 bg-[var(--background)] text-[var(--primary)] text-lg shadow-lg">
+    <div className="sticky top-0 z-50 flex justify-between items-center w-full h-16 px-4 lg:px-16 bg-[var(--background)] text-[var(--primary)] text-lg shadow-lg">
       <Link
         href="/"
         className="relative h-[80%] lg:h-full w-30 lg:w-30 mx-auto md:mx-0"
       >
         <Image
           src="/brand/logo.png"
-          alt="John Mignelli Logo"
+          alt="John Mignelli Home"
           fill
+          priority
           className="object-cover"
         />
       </Link>
       <Burger menuOpen={menuOpen} onClick={handleMenuClick} />
       {menuOpen && (
-        <div className="md:hidden absolute top-16 right-0 flex flex-col gap-4 pl-4 py-4 w-3/4 bg-[var(--background)] text-sm font-semibold shadow-xl">
+        <nav
+          className="md:hidden absolute top-16 right-0 flex flex-col gap-4 pl-4 py-4 w-3/4 bg-[var(--background)] text-sm font-semibold shadow-xl"
+          aria-label="Mobile Menu"
+        >
           <Link href="/" onClick={closeMenus}>
             Home
           </Link>
@@ -51,7 +55,12 @@ export default function NavBar() {
             About
           </Link>
           <div className="flex flex-col">
-            <button onClick={handleSubMenuClick} className="flex gap-1">
+            <button
+              onClick={handleSubMenuClick}
+              className="flex gap-1"
+              aria-expanded={subMenuOpen}
+              aria-controls="Mobile-Services-Submenu"
+            >
               Services
               <span
                 className={`flex items-center text-xs ${subMenuOpen ? "rotate-180" : ""}`}
@@ -60,6 +69,8 @@ export default function NavBar() {
               </span>
             </button>
             <div
+              id="Mobile-Services-Submenu"
+              role="Menu"
               className={`flex flex-col gap-4 pl-4 overflow-hidden transition-[max-height,opacity] duration-300 ease-in-out ${subMenuOpen ? "max-h-100 opacity-100 mt-4" : "max-h-0 opacity-0"}`}
             >
               {SERVICES.map((service, index) => (
@@ -72,25 +83,31 @@ export default function NavBar() {
           <Link href="/contact" onClick={closeMenus}>
             Contact
           </Link>
-        </div>
+        </nav>
       )}
-      <div className="hidden relative md:flex gap-4 lg:gap-12 items-center">
+      <nav
+        className="hidden relative md:flex gap-4 lg:gap-12 items-center"
+        aria-label="Main Navigation"
+      >
         <Link href="/" className={LINK_STYLES}>
           Home
         </Link>
         <Link href="/about" className={LINK_STYLES}>
           About
         </Link>
-        <div className={LINK_STYLES}>
-          <span>Services</span>
-          <div className="absolute top-full left-[-20] min-w-60 hidden group-hover:flex">
+        <div className="relative group">
+          <button className={LINK_STYLES}>Services</button>
+          <div
+            className="absolute top-full left-[-20] min-w-60 hidden group-hover:flex"
+            role="menu"
+          >
             <Dropdown />
           </div>
         </div>
         <Link href="/contact" className={LINK_STYLES}>
           Contact
         </Link>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 }
