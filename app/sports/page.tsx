@@ -10,20 +10,20 @@ export const metadata: Metadata = {
 
 export default function SportsPage() {
   return (
-    <main className="flex flex-col gap-12 items-center w-full min-h-screen mx-auto py-24">
+    <main className="flex-1 flex flex-col items-center w-full mx-auto py-8 xl:py-24">
       <section className="relative flex justify-center w-full">
-        <div className="absolute top-10 left-0">
+        <div className="hidden xl:flex absolute top-10 left-0">
           <NavMenu />
         </div>
         <div className="flex justify-center w-full pt-10">
-          <div className="flex-1"></div>
-          <div className="flex-4 flex flex-col max-w-[1200px]">
-            <h2 className="w-full bg-[var(--secondary)] p-4 px-12 text-white text-3xl font-bold z-[10]">
+          <div className="xl:flex-1 xl:min-w-2xs" />
+          <div className="xl:flex-4 flex flex-col items-center w-4/5 md:w-3/5 xl:min-w-[1000px] xl:max-w-[1200px]">
+            <h2 className="flex justify-center md:justify-start w-full bg-[var(--secondary)] p-4 md:px-12 text-white text-2xl md:text-3xl font-bold z-[10]">
               Sports Injuries
             </h2>
-            <div className="flex w-full">
-              <div className="flex-3 relative w-full">
-                <div className="aspect-16/9">
+            <div className="flex flex-col xl:flex-row w-full xl:min-w-xl">
+              <div className="xl:flex-4 relative w-full">
+                <div className="aspect-[4/3] xl:aspect-[16/9]">
                   <Image
                     src="/services/sports.png"
                     alt="Sports Injuries Image"
@@ -32,8 +32,8 @@ export default function SportsPage() {
                   />
                 </div>
               </div>
-              <div className="flex-4 max-w-full p-4 bg-[var(--primary)] text-left text-white">
-                <p className="mx-4 p-4">
+              <div className="xl:flex-3 max-w-full p-4 bg-[var(--primary)] text-left text-white">
+                <p className="p-2 md:mx-4 md:p-4 text-sm md:text-base">
                   John has an extensive history of treating athletes. He was the
                   full-time trainer for the Niagara Falls Canucks Jr. A (OJHL)
                   hockey team for four seasons, and continues to help cover
@@ -44,7 +44,7 @@ export default function SportsPage() {
                   many NCAA athletes during his education at D’Youville
                   University.
                 </p>
-                <p className="mx-4 p-4">
+                <p className="p-2 md:mx-4 md:p-4 text-sm md:text-base">
                   John has also worked with FireFit athletes representing
                   Niagara Falls and St. Catharines fire departments competing in
                   FireFit competitions nationally. Besides high-performance
@@ -56,7 +56,7 @@ export default function SportsPage() {
               </div>
             </div>
           </div>
-          <div className="flex-1"></div>
+          <div className="xl:flex-1" />
         </div>
       </section>
     </main>

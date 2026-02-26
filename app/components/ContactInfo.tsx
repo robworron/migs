@@ -3,7 +3,7 @@ import WorkplaceInfo from "./WorkplaceInfo";
 
 export default function ContactInfo() {
   return (
-    <section className="flex flex-col w-full">
+    <section className="flex flex-col w-full p-2 md:p-10 bg-[var(--primary)]">
       <PersonalInfo />
       <div className="flex flex-col md:flex-row gap-6 items-center min-h-[340px]">
         <div className="w-full md:flex-1">

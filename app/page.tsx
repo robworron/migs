@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-12 w-full">
+    <main className="flex-1 flex flex-col gap-12 w-full">
       <section className="flex flex-col gap-4 md:gap-8 w-full max-w-6xl h-[1100px] md:h-[900px] mx-auto p-4 md:p-10 bg-[var(--primary)]">
         <div className="flex flex-col md:flex-row gap-4 lg:gap-8 h-7/8">
           <div className="flex-3 md:flex-1 bg-[var(--foreground)] opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-200">

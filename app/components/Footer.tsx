@@ -49,19 +49,27 @@ const FACEBOOK_ICON = (
 export default function Footer() {
   return (
     <footer className="flex flex-col justify-center items-center gap-2 w-full py-6 mt-16 lg:mt-24 bg-[var(--secondary)] text-white">
-      <h5 className="text-lg">Dr. John Mignelli's Social Media</h5>
       <div className="flex gap-4 justify-center w-48 max-h-8">
         <a
           href="https://www.linkedin.com/in/john-mignelli-b42aa9296"
+          rel="noopener noreferrer"
+          target="_blank"
           className="w-8"
         >
           {LINKEDIN_ICON}
         </a>
-        <a href="https://www.instagram.com/j.mignelli/" className="w-8">
+        <a
+          href="https://www.instagram.com/j.mignelli/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="w-8"
+        >
           {INSTAGRAM_ICON}
         </a>
         <a
           href="https://www.facebook.com/profile.php?id=61587894836926"
+          rel="noopener noreferrer"
+          target="_blank"
           className="w-8"
         >
           {FACEBOOK_ICON}
@@ -73,7 +81,12 @@ export default function Footer() {
         <h5>Rob Worron</h5>
       </div>
       <p className="text-sm">rworron94@gmail.com</p>
-      <a href="https://www.robworron.ca/" className="text-sm">
+      <a
+        href="https://www.robworron.ca/"
+        rel="noopener noreferrer"
+        target="_blank"
+        className="text-sm"
+      >
         https://www.robworron.ca/
       </a>
     </footer>

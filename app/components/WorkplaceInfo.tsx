@@ -27,7 +27,7 @@ export default function WorkplaceInfo({
   imageAlt,
 }: WorkplaceInfoProps) {
   return (
-    <section className="flex flex-col gap-4 justify-center md:justify-start lg:justify-center items-center w-full min-h-80 md:h-[480px] lg:h-auto p-4 bg-[var(--foreground)] opacity-80 transition-transform hover:scale-105 hover:opacity-100">
+    <section className="flex flex-col gap-4 justify-center md:justify-start lg:justify-center items-center w-full min-h-80 md:h-[480px] lg:h-auto p-4 bg-[var(--foreground)] md:opacity-80 md:transition-transform md:duration-200 md:hover:scale-105 md:hover:opacity-100">
       <div className="flex flex-col lg:flex-row gap-4 items-center w-full">
         <div className="relative lg:flex-2 w-full h-48">
           <Image src={imageSrc} alt={imageAlt} fill />

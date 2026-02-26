@@ -9,6 +9,12 @@ export const metadata: Metadata = {
 };
 
 export default function LaserPage() {
+  {
+    /** CLIENT DIDN'T WANT THIS PAGE - KEPT IN CODEBASE IN CASE OF CHANGE OF MIND */
+  }
+
+  {
+    /**
   return (
     <main className="flex flex-col gap-12 items-center w-full min-h-screen mx-auto py-24 mb-36">
       <section className="relative flex justify-center w-full">
@@ -42,5 +48,6 @@ export default function LaserPage() {
         </div>
       </section>
     </main>
-  );
+  ); */
+  }
 }

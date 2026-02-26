@@ -11,7 +11,7 @@ const PARAGRAPH_STYLES = "text-sm lg:text-base indent-8";
 
 export default function AboutPage() {
   return (
-    <main className="flex flex-col w-full max-w-6xl min-h-screen mx-auto mt-8 md:mt-0 md:pt-12 md:px-8">
+    <main className="flex-1 flex flex-col w-full max-w-6xl mx-auto mt-8 md:mt-0 md:pt-12 md:px-8">
       <section className="flex flex-col-reverse md:flex-row gap-6 lg:gap-12">
         <article className="md:flex-1 flex flex-col gap-4 p-6 md:p-0">
           <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">

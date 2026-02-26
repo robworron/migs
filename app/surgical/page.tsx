@@ -10,20 +10,20 @@ export const metadata: Metadata = {
 
 export default function SurgicalPage() {
   return (
-    <main className="flex flex-col gap-12 items-center w-full min-h-screen mx-auto py-24">
+    <main className="flex-1 flex flex-col items-center w-full mx-auto py-8 xl:py-24">
       <section className="relative flex justify-center w-full">
-        <div className="absolute top-10 left-0">
+        <div className="hidden xl:flex absolute top-10 left-0">
           <NavMenu />
         </div>
         <div className="flex justify-center w-full pt-10">
-          <div className="flex-1"></div>
-          <div className="flex-4 flex flex-col max-w-[1200px]">
-            <h2 className="w-full bg-[var(--secondary)] p-4 px-12 text-white text-3xl font-bold z-[10]">
+          <div className="xl:flex-1 xl:min-w-2xs" />
+          <div className="xl:flex-4 flex flex-col items-center w-4/5 md:w-3/5 xl:min-w-[1000px] xl:max-w-[1200px]">
+            <h2 className="flex justify-center md:justify-start w-full bg-[var(--secondary)] p-4 md:px-12 text-center text-white text-xl md:text-2xl lg:text-3xl font-bold z-[10]">
               Pre and Post Surgical Rehabilitation
             </h2>
-            <div className="flex w-full">
-              <div className="flex-4 relative w-full">
-                <div className="aspect-16/9">
+            <div className="flex flex-col xl:flex-row w-full xl:min-w-xl">
+              <div className="xl:flex-4 relative w-full">
+                <div className="aspect-[4/3] xl:aspect-[16/9]">
                   <Image
                     src="/services/surgical.png"
                     alt="Pre and Post Surgical Rehabilitation Image"
@@ -32,14 +32,14 @@ export default function SurgicalPage() {
                   />
                 </div>
               </div>
-              <div className="flex-3 flex flex-col items-center max-w-full p-4 bg-[var(--primary)] text-left text-white">
-                <p className="mx-4 p-4">
+              <div className="xl:flex-3 max-w-full p-4 bg-[var(--primary)] text-left text-white">
+                <p className="p-2 md:mx-4 md:p-4 text-sm md:text-base">
                   John has years of experience working with pre- and
                   post-surgical spine and extremity patients. He is capable of
                   rehabbing many common orthopedic post-surgical cases
                   including:
                 </p>
-                <ul className="mx-4 p-4 list-disc list-inside text-left">
+                <ul className="p-2 md:mx-4 md:p-4 list-disc list-inside text-sm md:text-base text-left">
                   <li>Spinal fusion</li>
                   <li>Spinal discectomy and microdiscectomy</li>
                   <li>Laminectomy</li>
@@ -55,7 +55,7 @@ export default function SurgicalPage() {
               </div>
             </div>
           </div>
-          <div className="flex-1"></div>
+          <div className="xl:flex-1" />
         </div>
       </section>
     </main>

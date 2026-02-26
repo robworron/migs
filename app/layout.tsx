@@ -34,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={lexend.variable}>
-      <body className="flex flex-col">
+      <body className="flex flex-col min-h-screen">
         <NavBar />
         {children}
         <Footer />
