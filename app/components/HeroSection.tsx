@@ -9,9 +9,10 @@ export default function HeroSection() {
           <div className="relative w-full h-full">
             <Image
               fill
-              src="/body.png"
+              src="/body.webp"
               alt="John Mignelli Chiropractic Logo"
-              className="object-cover"
+              sizes="50vw, 100vw"
+              className="object-contain"
             />
           </div>
         </div>
@@ -25,7 +26,7 @@ export default function HeroSection() {
             </h2>
           </div>
           <p className="text-sm md:text-base">
-            John Mignelli has been providing quality Chiropractic care in the
+            John Mignelli has been providing quality chiropractic care in the
             Niagara Region since 2020. His practice is built on empowering
             patients and building lasting connections within his local
             community.

@@ -58,7 +58,7 @@ export default function ChiropracticPage() {
                 </p>
               </div>
             </div>
-            <p className="w-full bg-[var(--secondary)] p-4 md:px-12 xl:px-28 text-white text-lg lg:text-xl">
+            <p className="w-full bg-[var(--secondary)] p-4 md:px-12 xl:px-28 text-white md:text-lg lg:text-xl">
               <b className="font-semibold">
                 <i>
                   "As long as I see the chiropractor, I feel like I'm one step

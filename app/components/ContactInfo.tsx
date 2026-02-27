@@ -9,7 +9,7 @@ export default function ContactInfo() {
         <div className="w-full md:flex-1">
           <WorkplaceInfo
             name="Zero Gravity Physiotherapy"
-            address="200 Finch St., Welland, ON"
+            address="200 Fitch St., Welland, ON"
             postalCode="L3C 4V9"
             phone="(905)-735-6006"
             fax="(905)-735-0220"
