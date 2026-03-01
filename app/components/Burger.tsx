@@ -11,6 +11,9 @@ export default function Burger({ onClick, menuOpen }: BurgerProps) {
     <button
       onClick={onClick}
       className="flex md:hidden flex-col justify-around w-6 h-6"
+      aria-label={menuOpen ? "Close Menu" : "Open Menu"}
+      aria-expanded={menuOpen}
+      aria-controls="mobile-menu"
     >
       <span
         className={`${BURGER_LINE_STYLES} ${menuOpen ? "rotate-45 translate-y-2" : ""}`}

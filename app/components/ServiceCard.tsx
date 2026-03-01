@@ -26,7 +26,7 @@ export default function ServiceCard({
         className="object-cover brightness-45"
       />
       <article className="relative z-10 p-4">
-        <h4 className="text-white font-semibold">{title}</h4>
+        <h6 className="text-white font-semibold">{title}</h6>
       </article>
     </Link>
   );
