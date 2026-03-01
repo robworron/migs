@@ -35,7 +35,7 @@ export default function NavBar() {
         className="relative h-[80%] lg:h-full w-30 lg:w-30 mx-auto md:mx-0"
       >
         <Image
-          src="/brand/logo.png"
+          src="/brand/wordmark.webp"
           alt="John Mignelli Home"
           fill
           priority

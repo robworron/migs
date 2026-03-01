@@ -27,7 +27,7 @@ export default function ErgonomicPage() {
         <div className="flex justify-center">
           <div className="relative w-4/5 md:w-3/5 aspect-[8/7]">
             <Image
-              src={"/services/ergonomic.png"}
+              src={"/services/ergonomic.webp"}
               alt="Ergonomic Assessments Image"
               fill
               className="object-cover opacity-80"
@@ -53,7 +53,7 @@ export default function ErgonomicPage() {
           <div className="relative w-3/5 pb-20">
             <div className="aspect-[8/7]">
               <Image
-                src={"/services/ergonomic.png"}
+                src={"/services/ergonomic.webp"}
                 alt="Ergonomic Assessments Image"
                 fill
                 className="object-cover opacity-80"

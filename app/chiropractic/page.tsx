@@ -25,7 +25,7 @@ export default function ChiropracticPage() {
               <div className="xl:flex-3 relative w-full">
                 <div className="aspect-[1/1] xl:aspect-[16/9]">
                   <Image
-                    src="/services/chiropractic.png"
+                    src="/services/chiropractic.webp"
                     alt="Chiropractic Care Image"
                     fill
                     className="object-fit brightness-60 opacity-80"

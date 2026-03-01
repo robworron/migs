@@ -27,14 +27,14 @@ export default function GolfPage() {
         <div className="flex justify-center">
           <div className="relative w-4/5 aspect-[16/9]">
             <Image
-              src={"/services/golf.png"}
+              src={"/services/golf.webp"}
               alt="Golf Injuries and Fitness Image"
               fill
               className="object-cover opacity-80"
             />
             <div className="z-20 absolute top-0 right-3 translate-x-1/2 w-22 h-22 md:w-36 md:h-36 lg:w-42 lg:h-42">
               <Image
-                src="/assets/titleist.png"
+                src="/assets/titleist.webp"
                 alt="Titleist Image"
                 fill
                 className="object-fit brightness-60"
@@ -64,7 +64,7 @@ export default function GolfPage() {
           <div className="relative w-3/5 pb-20">
             <div className="aspect-[16/9]">
               <Image
-                src={"/services/golf.png"}
+                src={"/services/golf.webp"}
                 alt="Golf Injuries and Fitness Image"
                 fill
                 className="object-cover opacity-80"

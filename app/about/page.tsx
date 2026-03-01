@@ -48,7 +48,7 @@ export default function AboutPage() {
         </article>
         <div className="md:flex-1 flex justify-center md:justify-end w-full py-8 md:py-24 lg:py-8 bg-[var(--primary)] md:bg-transparent">
           <div className="relative w-[300px] md:w-full lg:w-[80%] h-[420px] md:h-full bg-[var(--foreground)] md:bg-transparent">
-            <Image src="/body.png" alt="temp" fill className="object-fit" />
+            <Image src="/body.webp" alt="temp" fill className="object-fit" />
           </div>
         </div>
       </section>

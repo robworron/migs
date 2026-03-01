@@ -27,7 +27,7 @@ export default function ShockwavePage() {
         <div className="flex justify-center">
           <div className="relative w-4/5 lg:w-3/5 aspect-[16/9]">
             <Image
-              src={"/services/shockwave.png"}
+              src={"/services/shockwave.webp"}
               alt="Shockwave Therapy Image"
               fill
               className="object-cover opacity-80"
@@ -54,7 +54,7 @@ export default function ShockwavePage() {
           <div className="relative w-3/5 pb-20">
             <div className="aspect-[16/9]">
               <Image
-                src={"/services/shockwave.png"}
+                src={"/services/shockwave.webp"}
                 alt="Shockwave Therapy Image"
                 fill
                 className="object-cover opacity-80"

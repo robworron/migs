@@ -25,7 +25,7 @@ export default function SurgicalPage() {
               <div className="xl:flex-4 relative w-full">
                 <div className="aspect-[4/3] xl:aspect-[16/9]">
                   <Image
-                    src="/services/surgical.png"
+                    src="/services/surgical.webp"
                     alt="Pre and Post Surgical Rehabilitation Image"
                     fill
                     className="object-fit brightness-60 opacity-80"

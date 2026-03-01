@@ -27,7 +27,7 @@ export default function MyofascialPage() {
         <div className="flex justify-center">
           <div className="relative w-4/5 md:w-3/5 aspect-[1/1]">
             <Image
-              src={"/services/myofascial.png"}
+              src={"/services/myofascial.webp"}
               alt="Myofascial Treatment Image"
               fill
               className="object-cover opacity-80"
@@ -57,7 +57,7 @@ export default function MyofascialPage() {
           <div className="relative w-3/5 pb-20">
             <div className="aspect-[4/3]">
               <Image
-                src={"/services/myofascial.png"}
+                src={"/services/myofascial.webp"}
                 alt="Myofascial Treatment Image"
                 fill
                 className="object-cover opacity-80"

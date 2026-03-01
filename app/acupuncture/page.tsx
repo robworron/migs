@@ -27,7 +27,7 @@ export default function AcupuncturePage() {
         <div className="flex justify-center">
           <div className="relative w-4/5 aspect-[16/9]">
             <Image
-              src={"/services/acupuncture.png"}
+              src="/services/acupuncture.webp"
               alt="Acupuncture Image"
               fill
               className="object-cover opacity-80"
@@ -57,7 +57,7 @@ export default function AcupuncturePage() {
           <div className="relative w-3/5 pb-20">
             <div className="aspect-[16/9]">
               <Image
-                src={"/services/acupuncture.png"}
+                src="/services/acupuncture.webp"
                 alt="Acupuncture Image"
                 fill
                 className="object-cover opacity-80"

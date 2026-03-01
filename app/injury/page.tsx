@@ -25,7 +25,7 @@ export default function InjuryPage() {
               <div className="xl:flex-5 relative w-full">
                 <div className="aspect-[4/3] xl:aspect-[16/9]">
                   <Image
-                    src="/services/injury.png"
+                    src="/services/injury.webp"
                     alt="Injury Rehabilitation Image"
                     fill
                     className="object-fit brightness-60 opacity-80"

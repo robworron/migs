@@ -25,7 +25,7 @@ export default function LifestylePage() {
               <div className="xl:flex-3 relative w-full">
                 <div className="aspect-[4/3]">
                   <Image
-                    src="/services/lifestyle.png"
+                    src="/services/lifestyle.webp"
                     alt="Lifestyle Modifications Image"
                     fill
                     className="object-fit brightness-60 opacity-80"

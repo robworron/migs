@@ -15,7 +15,7 @@ export default function ContactInfo() {
             fax="(905)-735-0220"
             email="zerogravityphysio@yahoo.com"
             website="https://www.zerogravityphysio.com/"
-            imageSrc="/assets/zero_gravity.png"
+            imageSrc="/assets/zero_gravity.webp"
             imageAlt="Zero Gravity Building"
           />
         </div>
@@ -29,7 +29,7 @@ export default function ContactInfo() {
             email="info@mobility-lab.ca"
             website="https://www.mobility-lab.ca/"
             bookingURL="https://mobilitylab.janeapp.com/#/staff_member/3?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnoCztIY26tYGULY9NZsAm6ual0ZdI2ikrDV2O_68MtHPOiQ9CvvbTXQv2QdY_aem_48yKVxVnDbFD3UsYsuUC3w"
-            imageSrc="/assets/mobility_lab.png"
+            imageSrc="/assets/mobility_lab.webp"
             imageAlt="Mobility Lab Building"
           />
         </div>

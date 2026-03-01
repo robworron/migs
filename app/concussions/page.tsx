@@ -27,7 +27,7 @@ export default function ConcussionPage() {
         <div className="flex justify-center">
           <div className="relative w-4/5 aspect-[16/9]">
             <Image
-              src={"/services/concussion.png"}
+              src="/services/concussion.webp"
               alt="Concussion Treatment Image"
               fill
               className="object-cover opacity-80"
@@ -55,7 +55,7 @@ export default function ConcussionPage() {
           <div className="relative w-3/5 pb-20">
             <div className="aspect-[16/9]">
               <Image
-                src={"/services/concussion.png"}
+                src="/services/concussion.webp"
                 alt="Concussion Treatment Image"
                 fill
                 className="object-cover opacity-80"

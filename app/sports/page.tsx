@@ -25,7 +25,7 @@ export default function SportsPage() {
               <div className="xl:flex-4 relative w-full">
                 <div className="aspect-[4/3] xl:aspect-[16/9]">
                   <Image
-                    src="/services/sports.png"
+                    src="/services/sports.webp"
                     alt="Sports Injuries Image"
                     fill
                     className="object-fit brightness-60 opacity-80"
