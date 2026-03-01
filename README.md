@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dr. John Mignelli Chiropractic Website
 
-## Getting Started
+A performance-focused chiropractic business website built with Next.js and optimized for local SEO and accessibility.
 
-First, run the development server:
+## Live Site
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://www.johnmignellichiropractic.ca
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This website has been designed and built for Dr. John Mignelli to give him an online presence to inform clients of who he is, the services he provides, and where he can be located. Additionally, a form is available for visitors to fill out if they wish to email Dr. Mignelli directly to address any concerns or book appointments. Dr. Mignelli hopes that online exposure will help him convert visitors into new patients and give him additional legitimacy in the healthcare field.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- Formspree (Form Handling)
+- Elfsight (Google Reviews widget)
+- Vercel (Deployment)
 
-To learn more about Next.js, take a look at the following resources:
+## Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Responsive, mobile-first design
+- SEO-optimized semantic structure
+- Accessible navigation using ARIA attributes such as aria-label, aria-expanded, and aria-controls
+- Optimized image loading using Next.js built-in Image component
+- Server/client component separation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Performance and Accessibility
 
-## Deploy on Vercel
+- Lighthouse optimized for strong performance scores
+- Semantic HTML structure
+- Keyboard accessible navigation
+- Optimized image loading with priority for largest contentful paint (LCP) elements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Architecture Decisions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Used Next.js App Router for modern routing patterns
+- Separated client components only where interactivity is required to increase performance and SEO
+- Navigation state managed at navbar level to control dropdown behaviour
+
+## Folder Structure
+
+- /app for app router pages and global styles
+- /components for reusable UI components
+- /public for static assets (images)
