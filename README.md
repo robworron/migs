@@ -35,7 +35,7 @@ This website has been designed and built for Dr. John Mignelli to give him an on
 - Keyboard accessible navigation
 - Optimized image loading with priority for largest contentful paint (LCP) elements
 
-# Architecture Decisions
+## Architecture Decisions
 
 - Used Next.js App Router for modern routing patterns
 - Separated client components only where interactivity is required to increase performance and SEO
@@ -46,3 +46,16 @@ This website has been designed and built for Dr. John Mignelli to give him an on
 - /app for app router pages and global styles
 - /components for reusable UI components
 - /public for static assets (images)
+
+## Technical Decisions
+
+- Decided to use React and Next.js due to my familiarity with the frameworks - Next.js offers image optimization via its built-in Image component to increase performance, and improve SEO
+- TypeScript used for type safety
+- Tailwind is a popular CSS framework which allows for rapid styling of HTML elements
+- Hosting is handled through Vercel - its integration with Next.js makes deployment easy
+
+## What I Learned
+
+- High resolution images that were provided hamstrung load times and lowered Lighthouse performance scores. I learned the importance of managing image sizes via Next.js Image component and compressing those images to lower the time for the LCP to help increase performance
+- The importance of semantic structure and ARIA attributes for accessibility
+- Furthered my understanding of Tailwind styling conventions, file structure, routing, and utilizing Vercel's dashboard to aid with deployment
