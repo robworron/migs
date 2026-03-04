@@ -35,13 +35,13 @@ export default function HeroSection() {
             patients and building lasting connections within his local
             community.
           </p>
-          <div className="flex gap-4">
+          <div className="flex gap-4 text-sm xl:text-base">
             <Link
               aria-label="Learn more about Dr. John Mignelli"
               href="/about"
               className={BUTTON_STYLES}
             >
-              Read More
+              Read More About Dr. Mignelli
             </Link>
             <Link
               aria-label="Book an appointment with Dr. John Mignelli"
